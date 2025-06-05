@@ -1,0 +1,99 @@
+ body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     /* background: #9daaaf; */
+     
+     background-image: url('login.jpg');
+     background-size: cover;
+ }
+
+
+
+ .form-container {
+     background: white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     max-width: 400px;
+     margin: auto;
+     font-weight: bold;
+     border: 2px solid black;
+ }
+
+ .h1 {
+     text-align: center;
+ }
+
+ label {
+     display: block;
+     margin-top: 10px;
+ }
+
+ input {
+     width: 95%;
+     padding: 8px;
+     margin-top: 5px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ button {
+     margin-top: 15px;
+     padding: 10px;
+     background-color: #0066cc;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     width: 100%;
+     cursor: pointer;
+     font-weight: bold;
+ }
+
+ button:hover {
+     background-color: #004999;
+ }
+
+ .id-card {
+     background: #fff;
+     border: 3px solid #000000;
+     border-radius: 15px;
+     width: 300px;
+     height: 400px;
+     margin: 30px auto;
+     padding: 20px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+     display: none;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     font-size: 10px;
+ }
+
+ .id-card .logo {
+     width: 80px;
+     margin-bottom: 10px;
+ }
+
+ .id-card .photo {
+     width: 100px;
+     height: 120px;
+     border: 2px solid #004999;
+ }
+
+ .info {
+     width: 100%;
+     padding: 10px;
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+     text-align: left;
+ }
+
+ .info p {
+     margin: 2px 0;
+     font-size: 16px;
+ }
+
+ .info p strong {
+     width: 150px;
+     display: inline-block;
+ }

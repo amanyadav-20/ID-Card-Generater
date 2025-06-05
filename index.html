@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-container">
+
+            <h2 class="h1">Student ID Form</h2>
+            <form id="idForm">
+                <label>Name:</label>
+                <input type="text" id="name" required>
+
+                <label>Course:</label>
+                <input type="text" id="course" required>
+
+                <label>Admission No:</label>
+                <input type="text" id="admission" required>
+
+                <label>Date of Birth:</label>
+                <input type="date" id="dob" required>
+
+                <label>Blood Group:</label>
+                <input type="text" id="blood" required>
+
+                <label>Valid Till:</label>
+                <input type="date" id="valid" required>
+
+                <label>Student Image:</label>
+                <input type="file" id="photoInput" accept="image/*" required>
+
+                <button type="submit">Generate ID Card</button>
+            </form>
+        </div>
+
+        <!-- ID Card Display -->
+        <div class="id-card" id="idCard">
+            <img src="images.png" alt="college Logo" class="logo">
+            <img id="cardPhoto" class="photo" alt="Student Photo">
+            <div class="info">
+                <p><strong>Name:</strong> <span id="cardName"></span></p>
+                <p><strong>Course:</strong> <span id="cardCourse"></span></p>
+                <p><strong>Admission No:</strong> <span id="cardAdmission"></span></p>
+                <p><strong>DOB:</strong> <span id="cardDOB"></span></p>
+                <p><strong>Blood Group:</strong> <span id="cardBlood"></span></p>
+                <p><strong>Valid Till:</strong> <span id="cardValid"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
